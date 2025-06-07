@@ -3,7 +3,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/DevRightStudios/Stratagem-Helper?style=for-the-badge)
 ![GitHub All Releases](https://img.shields.io/github/downloads/DevRightStudios/Stratagem-Helper/total?style=for-the-badge)
 ![GitHub Issues](https://img.shields.io/github/issues/DevRightStudios/Stratagem-Helper?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/DevRightStudios/Stratagem-Helper?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/DevRightStudios/Stratagem-Helper?style=for-the-badge&cache_bust=1)
 
 A powerful desktop application for Helldivers 2 that allows you to call in your stratagems with lightning speed and precision using global hotkeys.
 
