@@ -1,6 +1,7 @@
 # DRS | Helldivers 2 Stratagem Helper 🚀
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/DevRightStudios/Stratagem-Helper?style=for-the-badge)
+[![Changelog](https://img.shields.io/badge/changelog-gray?style=for-the-badge)](CHANGELOG.md)
 ![GitHub All Releases](https://img.shields.io/github/downloads/DevRightStudios/Stratagem-Helper/total?style=for-the-badge)
 ![GitHub Issues](https://img.shields.io/github/issues/DevRightStudios/Stratagem-Helper?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/DevRightStudios/Stratagem-Helper?style=for-the-badge&cache_bust=1)
