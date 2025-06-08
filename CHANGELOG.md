@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.1] - 2025-06-08
+
+This is a critical patch release focused on hotkey listener stability and reliability, addressing bugs discovered during in-game testing.
+
+### 🐛 Fixed
+- **Resolved "Stuck" Hotkey Listener:** Fixed a major stability issue where the hotkey listener could randomly stop responding during high-intensity use. The new matching algorithm is now resilient to missed key-release events from the OS and no longer requires a manual restart.
+- **Universal Number Key Support:** Corrected a bug where top-row number keys were not being detected by the listener. Both top-row and Numpad number keys now work interchangeably and reliably.
+- **Core Stability:** Fixed several `AttributeError` crashes that occurred on application startup due to incorrect definitions in the internal key map.
+
+---
+
 ## [2.1.0] - 2025-06-07
 
 This version introduces professional user-facing features like automatic update checking and an integrated issue reporter, alongside critical stability fixes to the hotkey system.
