@@ -7,14 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [2.1.1] - 2025-06-08
+## [2.2.0] - 2025-06-08
 
-This is a critical patch release focused on hotkey listener stability and reliability, addressing bugs discovered during in-game testing.
+This release introduces a major new personalization feature—a complete custom theme editor—and a key quality-of-life improvement to ensure hotkey settings are always up-to-date.
 
-### 🐛 Fixed
-- **Resolved "Stuck" Hotkey Listener:** Fixed a major stability issue where the hotkey listener could randomly stop responding during high-intensity use. The new matching algorithm is now resilient to missed key-release events from the OS and no longer requires a manual restart.
-- **Universal Number Key Support:** Corrected a bug where top-row number keys were not being detected by the listener. Both top-row and Numpad number keys now work interchangeably and reliably.
-- **Core Stability:** Fixed several `AttributeError` crashes that occurred on application startup due to incorrect definitions in the internal key map.
+### ✨ Added
+- A powerful **Custom Theme Editor** accessible via `View > Themes > Custom...`.
+- Users can now customize all major interface colors, from backgrounds and text to accents and borders, using a simple color picker interface.
+- Custom themes are automatically saved and reloaded when the application starts.
+- A "Restore Defaults" button is included in the editor to easily revert to the standard dark theme.
+- **Persistent User Data:** All user-generated files (Loadouts, Settings, custom Stratagems) are now stored in the user's `%APPDATA%` folder.
+- This ensures that all user settings **will survive application updates** and will no longer be erased when installing a new version.
+
+### ⚙️ Changed
+- **Improved UI Safety:** The hotkey listener will now automatically deactivate whenever a loadout or hotkey setting is modified. The user is notified in the Activity Log and must reactivate, which guarantees the listener is always using the most current settings.
+- **In-Depth User Guide:** The in-app Instructions have been completely rewritten into a comprehensive, step-by-step user guide covering all features.
+- On first launch, the application now creates a personal, editable copy of the master stratagem list in the user's data folder.
 
 ---
 
