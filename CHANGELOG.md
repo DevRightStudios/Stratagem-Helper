@@ -7,11 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.3.0] - 2025-06-09
+
+This is a massive feature release that introduces the **Stratagem Training Center**, a complete in-app game to help users improve their input speed and accuracy. It also adds the highly-requested ability to edit existing stratagems in the master list.
+
+### ✨ Added
+- A powerful **Stratagem Trainer** minigame accessible via a new "Stratagem Trainer" tab.
+- The trainer includes multiple modes:
+  - **Practice Mode:** For stress-free training with no timer.
+  - **Timed Challenge:** A 30-second mode to test your speed, with scoring.
+  - **Scrambled Codes:** An option for both modes that randomizes stratagem inputs.
+- A **Time Bonus** system in Timed Challenge that rewards faster inputs with more time.
+- An advanced **Re-scramble Mechanic** for the ultimate challenge, mirroring in-game effects.
+- The ability to **edit** existing stratagems in the `Stratagems > Manage Master List` dialog, which opens a dedicated editor window.
+
+### ⚙️ Changed
+- The main window now uses a tabbed interface to separate "Hotkey Setup" and the new "Stratagem Trainer".
+- The application's visual theme has been polished with improved tab styling and more distinct UI elements.
+
+---
+
 ## [2.2.0] - 2025-06-08
 
 This release introduces a major new personalization feature—a complete custom theme editor—and a key quality-of-life improvement to ensure hotkey settings are always up-to-date.
 
-### ✨ Added
+### ✨ Added 
 - A powerful **Custom Theme Editor** accessible via `View > Themes > Custom...`.
 - Users can now customize all major interface colors, from backgrounds and text to accents and borders, using a simple color picker interface.
 - Custom themes are automatically saved and reloaded when the application starts.
