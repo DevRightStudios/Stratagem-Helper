@@ -8,9 +8,9 @@
 ![GitHub Issues](https://img.shields.io/github/issues/DevRightStudios/Stratagem-Helper?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/DevRightStudios/Stratagem-Helper?style=for-the-badge&cache_bust=1)
 
-A powerful desktop application for Helldivers 2 that allows you to call in your stratagems with lightning speed and precision using global hotkeys.
+A powerful desktop application for Helldivers 2 that lets you call in stratagems with lightning speed and **hone your skills** with a built-in, feature-rich trainer.
 
-This tool is designed for the serious Helldiver who wants maximum efficiency and customization. Built on a modern and robust framework, it provides a clean user interface, detailed timing controls, and a powerful loadout system to manage your favorite configurations.
+This tool is designed for the serious Helldiver who wants maximum efficiency, customization, and a way to practice even when not in a mission.
 
 ---
 
@@ -21,23 +21,33 @@ This tool is designed for the serious Helldiver who wants maximum efficiency and
 
 ## ✨ Key Features
 
-* **Modern User Interface:** Built with PyQt6 for a smooth and responsive experience, complete with **Dark and Light themes**.
-* **Universal Hotkey System:**
-    * Assign any stratagem to virtually any key combination.
-    * Full support for **keyboard keys, top-row numbers, Numpad keys, and punctuation**.
-    * Full support for **mouse buttons (Mouse 1-5)** and modifier combinations (e.g., `Ctrl+Mouse4`).
-* **Powerful Loadout Management:**
-    * Save and load complete profiles, including all your assigned stratagems, hotkeys, and timing settings.
-    * Assign custom SVG icons to your loadouts for easy identification.
-    * Automatically loads your most recently saved configuration on startup.
-* **Precision Timing Control:**
-    * Fine-tune every aspect of the key-press simulation, including pre-delay, post-delay, inter-key delay, and the duration each key is held down.
-    * Supports both **Hold** and **Tap** stratagem activation modes to match your in-game settings perfectly.
-* **Fully Customizable Stratagem List:** Add your own stratagems, create new categories, and assign custom icons via the in-app master list editor.
-* **Automatic Update Notifications:** The application automatically checks for new versions on startup and will notify you if an update is available on this releases page.
-* **In-App Issue Reporting:** Found a bug or have an idea? Use the "Submit an Issue" feature in the Help menu to report it directly to our GitHub page.
+* **Complete Stratagem Trainer:** Hone your input skills with a feature-rich in-app minigame!
+    * **Multiple Modes:** Choose between a stress-free `Practice Mode` and a fast-paced `Timed Challenge`.
+    * **Scrambled Codes:** Enable this option to randomize stratagem inputs and train your reaction time.
+    * **Ultimate Challenge:** Combine Timed and Scrambled modes to activate a 4-second re-scramble mechanic, just like the in-game effect!
+    * **Time Bonus System:** Get rewarded with more time on the clock for fast and accurate code entries in Timed mode.
+    * **Full A/V Feedback:** Includes sound effects and dynamic visual feedback for every key press.
 
-### 💾 Installation
+* **Universal Hotkey System:**
+    * Assign any stratagem to virtually any key combination, including keyboard keys, top-row numbers, Numpad keys, punctuation, and mouse buttons (Mouse 1-5).
+    * The robust listener is resilient to "stuck" keys during intense gameplay.
+
+* **Persistent User Data:**
+    * Your saved loadouts, custom themes, and stratagem list modifications are now stored safely in your user `AppData` folder.
+    * **Your settings will survive all future application updates!**
+
+* **Full Stratagem List Management:**
+    * Add, **edit**, or delete any stratagem from the application's master list via a dedicated management dialog.
+
+* **Powerful Loadout & Theme System:**
+    * Save and load complete profiles, including all your assigned stratagems, hotkeys, and timing settings.
+    * Fully customize the application's appearance with preset Light/Dark themes or create your own with the **Custom Theme Editor**.
+
+* **Community Features:**
+    * **Automatic Update Notifications:** The application checks for new versions on startup.
+    * **In-App Issue Reporting:** Use the `Help -> Submit an Issue...` feature to send feedback directly to our GitHub page.
+
+## 💾 Installation
 
 Installation is handled by a standard setup wizard to make the process simple and clean.
 
@@ -46,32 +56,22 @@ Installation is handled by a standard setup wizard to make the process simple an
     * From the latest release, find the "Assets" section and download the `DRS_Suite_Installer.exe` file.
 
 2.  **Run the Installer**
-    * Double-click the downloaded `DRS_Suite_Installer.exe` file.
-    * Follow the on-screen instructions in the setup wizard. You can install the application to any location on your computer.
+    * Double-click the downloaded `DRS_Suite_Installer.exe` file and follow the on-screen instructions.
 
 3.  **Launch the Application**
-    * Once installed, you can launch the Stratagem Helper from the Start Menu folder and/or Desktop shortcut created by the installer.
+    * Once installed, you can launch the Stratagem Helper from the Start Menu and/or Desktop shortcut.
 
-> **Updating the Application**
->
-> To update to a newer version, you don't need to uninstall anything first. Just download the new `DRS_Suite_Installer.exe` for the latest version and run it. The installer will **automatically handle the removal** of the old version and upgrade you to the new one seamlessly.
-
-## 📋 How to Use
-
-1.  **Configure Slots:** Use the main window to assign a Stratagem to an empty slot.
-2.  **Set Hotkey:** Click the "Set Hotkey" button for that slot and press your desired key combination. The skull icon will turn "active" when the slot is fully configured.
-3.  **Fine-Tune Settings (Optional):** Use the `Settings` menu to configure timings and other options. You can save your complete setup as a "Loadout".
-4.  **Activate:** Click the **"Activate Hotkeys"** button on the menu bar. It will turn red to indicate it's active.
-5.  **Spread Managed Democracy:** With the application running and Helldivers 2 as your active window, press your hotkeys to call in stratagems instantly.
+> **Updating:** To update, simply download the new installer and run it. It will automatically uninstall the old version and seamlessly upgrade you while keeping all your saved data.
 
 ## 🐛 Bug Reports & Suggestions
 
-Have an idea for a new feature or found a bug? Please let us know!
+We welcome all feedback! This project has a **Code of Conduct** to ensure our community is positive and welcoming.
 
-You can submit a report directly through the application (**Help -> Submit an Issue...**) or by creating a new issue manually on our [**Issues Page**](https://github.com/DevRightStudios/Stratagem-Helper/issues).
+Please use the in-app `Help -> Submit an Issue...` tool or create a new issue manually on our [**Issues Page**](https://github.com/DevRightStudios/Stratagem-Helper/issues).
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
