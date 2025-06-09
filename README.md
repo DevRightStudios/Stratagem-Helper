@@ -3,6 +3,8 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/DevRightStudios/Stratagem-Helper?style=for-the-badge)
 [![Changelog](https://img.shields.io/badge/changelog-gray?style=for-the-badge)](CHANGELOG.md)
 ![GitHub All Releases](https://img.shields.io/github/downloads/DevRightStudios/Stratagem-Helper/total?style=for-the-badge)
+[![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](CODE_OF_CONDUCT.md)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg?style=for-the-badge)](SECURITY.md)
 ![GitHub Issues](https://img.shields.io/github/issues/DevRightStudios/Stratagem-Helper?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/DevRightStudios/Stratagem-Helper?style=for-the-badge&cache_bust=1)
 
@@ -12,7 +14,7 @@ This tool is designed for the serious Helldiver who wants maximum efficiency and
 
 ---
 
-![Application Screenshot](https://devrightstudios.com/images/stratagem_helper.png) 
+![Application Screenshot](https://devrightstudios.com/images/stratagem_helper.png?v=2.3.0) 
 *<p align="center">Sleek, themeable interface with detailed configuration options.</p>*
 
 ---
