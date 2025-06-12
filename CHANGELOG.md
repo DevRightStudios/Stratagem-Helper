@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.3.1] - 2025-06-12
+
+This is a stability patch that resolves numerous bugs and rendering issues related to the new theme system, greatly improving UI polish and reliability.
+
+### 🐛 Fixed
+- Fixed a major issue where the selected theme would not load correctly on application startup, often resulting in a visual mismatch until the theme was re-selected from the menu.
+- Corrected a bug where stratagem slot icons (skulls) would not update their color when switching themes live.
+- Overhauled the Light Theme styling to fix multiple visual bugs, including invisible checkboxes, improperly styled group boxes, and low-contrast borders.
+- Restored the missing dropdown arrow icons for all `QComboBox` widgets.
+- Fixed a crash (`NameError`) that could occur when opening the in-app User Guide.
+- Improved the styling of the main tabs for better visual clarity on which tab is active.
+
+---
+
 ## [2.3.0] - 2025-06-09
 
 This is a massive feature release that introduces the **Stratagem Training Center**, a complete in-app game to help users improve their input speed and accuracy. It also adds the highly-requested ability to edit existing stratagems in the master list.
