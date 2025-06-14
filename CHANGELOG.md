@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.1] - 2025-06-14
+
+This is a landmark update that officially launches the **Online Leaderboard** for the Stratagem Trainer! This release also includes major UI layout fixes and visual polish to enhance the user experience.
+
+### ✨ Added
+- **Online Leaderboard:** A new "Leaderboard" tab has been added to view top global scores from the DevRight Studios server.
+- **Score Submission:** Players can now submit their scores from the "Timed Challenge" mode to compete for the top spot.
+- **Player Personalization:** The application now prompts for a username on first launch, which is used for submissions and a new "Welcome" message.
+- **Leaderboard Prestige:** The top 3 players are now highlighted with unique colors and medal icons (🥇, 🥈, 🥉) for recognition.
+
+### ⚙️ Changed
+- The main UI layout has been completely overhauled to resolve a long-standing bug that caused content to overlap or be hidden. The layout is now stable and robust.
+- The "Activate Hotkeys" and "Add Slot" buttons have been permanently moved to a static area at the bottom of the "Hotkey Setup" tab for better accessibility.
+- Improved the visual spacing and padding of the Stratagem Hotkey slots for better clarity.
+- Improved the column spacing and data formatting on the Leaderboard table.
+
+### 🐛 Fixed
+- Resolved all connection issues related to SSL certificates and timeouts when communicating with the live server.
+- Fixed a critical crash that occurred when submitting a score due to UI updates from a background thread.
+
+---
+
 ## [2.4.0] - 2025-06-14
 
 This release introduces significant new features, including a competitive **Leaderboard**, a **revamped Scoring System**, and a new **Username System**, alongside key bug fixes to enhance stability and user experience.
