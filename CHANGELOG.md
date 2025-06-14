@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.0] - 2025-06-14
+
+This release introduces significant new features, including a competitive **Leaderboard**, a **revamped Scoring System**, and a new **Username System**, alongside key bug fixes to enhance stability and user experience.
+
+### ✨ Added
+- A brand new global **Leaderboard System** to track and compare stratagem input speed and accuracy among players.
+- A **Revamped Scoring System** for the stratagem trainer, offering more accurate and granular feedback on performance.
+- A new **Username System** allowing players to set unique display names for the leaderboard and personalized experiences.
+
+### ✨ Improvements
+- Enhanced overall application performance and responsiveness.
+- Improved user interface elements for a smoother experience.
+
+### 🐛 Fixed
+- Resolved an issue with the top grid layout not displaying correctly.
+- Fixed a UI glitch affecting the "Activate Hotkeys" button.
+- Addressed a bug where the trainer would stop recording scores under certain conditions.
+
+---
+
 ## [2.3.1] - 2025-06-12
 
 This is a stability patch that resolves numerous bugs and rendering issues related to the new theme system, greatly improving UI polish and reliability.
@@ -107,3 +127,4 @@ The initial releases of the Stratagem Helper were built as a lightweight and fun
 - **Hotkey Assignment:** Users could assign a keyboard hotkey to each stratagem in the list.
 - **Configuration Saving:** Hotkey assignments could be saved to and loaded from a local `macros.json` file.
 - **Activation Toggle:** A global toggle (using the Scroll Lock key) enabled or disabled the hotkey listener.
+
