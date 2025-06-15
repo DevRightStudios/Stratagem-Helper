@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.2] - 2025-06-14
+
+This is a hotfix release focused on significant visual polish for the Leaderboard and crucial bug fixes for improved stability and user experience.
+
+### ✨ Changed
+- The **Leaderboard** tab has been redesigned with a "card" style to visually match the rest of the application.
+- The leaderboard table now has a polished "inset" look with proper borders, padding, and theme-aware colors.
+- Improved the column spacing on the leaderboard for better readability.
+
+### 🐛 Fixed
+- The text color of scores on the leaderboard now updates immediately when the application theme is changed.
+- The "Timing & Key Configuration" dialog will now correctly display default values if no settings have been previously saved.
+- Fixed a critical bug that could cause the application to crash when opening the "About" dialog.
+
+---
+
 ## [2.4.1] - 2025-06-14
 
 This is a landmark update that officially launches the **Online Leaderboard** for the Stratagem Trainer! This release also includes major UI layout fixes and visual polish to enhance the user experience.
