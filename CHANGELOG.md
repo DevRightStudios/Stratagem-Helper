@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.3] - 2025-06-15
+
+This is a critical hotfix patch that resolves major bugs related to the hotkey execution system, ensuring a stable and reliable experience for all users.
+
+### 🐛 Fixed
+- **CRITICAL:** Fixed a major bug that could cause the hotkey simulation to crash with a `ValueError` if timing or key settings were not properly loaded. The simulation is now significantly more robust.
+- Fixed an issue where changes made to the "Stratagem Menu Key" in the configuration dialog were not being correctly applied, causing hotkeys to fail.
+- The version number displayed in the main window's title bar now updates correctly with each new release.
+
+---
+
 ## [2.4.2] - 2025-06-14
 
 This is a hotfix release focused on significant visual polish for the Leaderboard and crucial bug fixes for improved stability and user experience.
