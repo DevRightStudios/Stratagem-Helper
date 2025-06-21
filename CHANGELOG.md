@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.1] - 2025-06-21
+
+This is a major stability and user experience hotfix that completely overhauls the loadout management system to resolve all known bugs related to saving and loading timing and key configurations.
+
+### ✨ Added
+- **Data Update Notifications:** The application will now show a "Ministry of Truth" themed pop-up on startup to inform users of any automatic corrections made to the master stratagem list, such as fixing incorrect input codes.
+
+### ✨ Changed
+- The "Configure Loadouts" and "Configure Timing/Key" dialogs have been removed and replaced with a single, powerful **"Manage Loadouts and Settings"** dialog.
+- This new, unified manager provides a much clearer and more reliable workflow for editing the name, icon, and all associated settings for a saved loadout.
+
+### 🐛 Fixed
+- **CRITICAL:** Fixed a persistent bug where the "Tap/Hold" mode and "Stratagem Menu Key" settings would not save correctly to a loadout file.
+- **CRITICAL:** Fixed a related bug where loading a saved loadout would fail to apply the correct "Tap/Hold" mode and other key settings.
+- Resolved several `AttributeError` crashes that occurred when opening or interacting with the old loadout management dialogs.
+
+---
+
 ## [2.5.0] - 2025-06-20
 
 #### ✨ New Features
