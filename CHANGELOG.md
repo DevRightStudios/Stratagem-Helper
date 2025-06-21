@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.0] - 2025-06-20
+
+#### ✨ New Features
+
+* **Quick Loadout Selection:** A new "Quick Loadout" dropdown menu and "Load" button have been added to the main "Hotkey Setup" tab. This provides users with a convenient way to apply a full loadout directly from the main screen.
+    * The dropdown displays all saved loadouts with their assigned icons.
+    * The "Load" button applies all settings from the selected loadout, including stratagem slots, timing, and key configurations.
+    * The dropdown is automatically synchronized when loadouts are added, edited, or deleted.
+
+#### 🐛 Bug Fixes
+
+* **Fixed `AttributeError` in Loadout Manager:** Resolved a critical bug in the `LoadoutManagerDialog` where attempting to update a loadout's details would cause a crash. The method `_on_update_selected_details_clicked` was referencing UI elements (`edit_name_le`, `edit_icon_svg_combo`) with incorrect variable names. It now correctly uses `dialog_edit_name_le` and `dialog_edit_icon_svg_combo`.
+* **Fixed `AttributeError` on Startup:** Corrected a startup crash caused by the `_populate_loadout_dropdown_qt` method being missing from the `MainWindow` class after a recent refactor. The method has been restored, allowing the application to initialize correctly.
+
+#### ♻️ Code Refactoring
+
+* Centralized loadout population logic by creating `_populate_main_loadout_combo` and ensuring it's called from all relevant update paths (`_load_initial_ui_state`, `_open_loadout_manager_dialog`, `_delete_selected_loadout_qt`, etc.) to maintain UI consistency.
+
+---
+
 ## [2.4.3] - 2025-06-15
 
 This is a critical hotfix patch that resolves major bugs related to the hotkey execution system, ensuring a stable and reliable experience for all users.
