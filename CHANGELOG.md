@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.2] - 2025-06-21
+
+This is a hotfix release that adds a crucial user notification system for a legacy data bug and improves the stability of the settings manager.
+
+### ✨ Added
+- **Loadout Corruption Warning:** A new "Illuminate Infiltration" dialog will now appear on every launch if the application detects saved loadouts with missing timing data from a previous bug. The dialog now lists the specific loadouts that require fixing.
+
+### 🐛 Fixed
+- The "Edit/Save Loadout" dialog now correctly populates with default timing values instead of blank fields when creating a new loadout.
+- Fixed a bug that could cause the "About" dialog to crash on open.
+
+---
+
 ## [2.5.1] - 2025-06-21
 
 This is a major stability and user experience hotfix that completely overhauls the loadout management system to resolve all known bugs related to saving and loading timing and key configurations.
