@@ -14,7 +14,7 @@ This tool is designed for the serious Helldiver who wants maximum efficiency, cu
 
 ---
 
-![Application Screenshot](https://devrightstudios.com/images/stratagem_helper.png?v=2.5.0) 
+![Application Screenshot](https://devrightstudios.com/images/stratagem_helper.png?v=3.0.0) 
 *<p align="center">Sleek, themeable interface with detailed configuration options.</p>*
 
 ---
