@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+---
+
+## [3.0.0] - 2025-07-05 - The Next-Generation Deployment
+
+Greetings, Helldivers! This is a complete overhaul of the Stratagem Helper, rebuilt from the ground up on the new Flutter framework for enhanced performance, stability, and future readiness. This is a mandatory update for all personnel.
+
+### ✨ Added
+-   **Full Application Rewrite:** The entire application has been modernized on the Flutter platform.
+-   **Stratagem Editor:** Full capability to Add, Edit, and Delete both stratagems and categories, including new sub-categories for enhanced organization.
+-   **Advanced Loadout Manager:** Save, load, delete, and overwrite full loadouts, now including assigned hotkeys.
+-   **Stratagem Trainer v2:** An immersive training simulator with three distinct modes:
+    -   **Practice:** No-pressure drills with a shorter timer.
+    -   **Standard:** Full-featured timed mode with dynamic scoring and time bonuses.
+    -   **Scrambled:** An elite mode for veterans where codes are randomized and must be entered before they become unstable.
+-   **Live Leaderboard:** A new screen to view top Helldiver scores, fetched directly from the Ministry of Truth's servers. Now includes patriot identification images.
+-   **Automated Crash Reporter:** In the event of a critical malfunction, a separate utility will now launch to prepare a telemetry report for submission.
+-   **Auto-Updater:** The application will now check for new versions on startup and prompt the user to install them.
+-   **Sound Effects:** Added a full suite of audio feedback for UI interactions and trainer events to improve immersion.
+-   **Data Versioning System:** A new system automatically updates stratagem data to the latest schematics from High Command while preserving user-created additions.
+
+### 🐛 Fixed & Improved
+-   **Complete Overhaul of Hotkey System:** Replaced the underlying hotkey and keystroke services to eliminate race conditions, preventing "stuck modifier key" bugs and improving stability.
+-   **Application Shutdown:** Resolved a critical bug where the application process would not terminate correctly after closing the window. The app now shuts down cleanly.
+-   **Server-Side Stability:** Rewrote and hardened all server-side API endpoints and file system permissions to resolve all `500 Internal Server Errors` and ensure reliable data handling.
+-   **UI & Theme:** The entire user interface has been redesigned with a more consistent, modern, and themed look across all screens and dialogs.
 
 ---
 
