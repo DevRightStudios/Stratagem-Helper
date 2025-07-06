@@ -15,7 +15,7 @@ This tool is designed for the serious Helldiver who wants maximum efficiency, cu
 ---
 
 ![Application Screenshot](https://devrightstudios.com/images/stratagem_helper.png?v=3.0.0) 
-*<p align="center">Sleek, themeable interface with detailed configuration options.</p>*
+*<p align="center">Sleek, interface with detailed configuration options.</p>*
 
 ---
 
@@ -41,11 +41,9 @@ This tool is designed for the serious Helldiver who wants maximum efficiency, cu
 
 * **Powerful Loadout & Theme System:**
     * Save and load complete profiles, including all your assigned stratagems, hotkeys, and timing settings.
-    * Fully customize the application's appearance with preset Light/Dark themes or create your own with the **Custom Theme Editor**.
 
 * **Community Features:**
     * **Automatic Update Notifications:** The application checks for new versions on startup.
-    * **In-App Issue Reporting:** Use the `Help -> Submit an Issue...` feature to send feedback directly to our GitHub page.
 
 ## 💾 Installation
 
