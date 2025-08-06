@@ -1,0 +1,33 @@
+# Name for your GitHub Action, will be displayed in the "Actions" tab
+name: Post Changelog to Discord
+
+# This action will only trigger on pushes to the 'main' branch
+on:
+  push:
+    branches:
+      - main # Important: Change this to your default branch if it's not 'main'
+    paths:
+      - 'CHANGELOG.md' # Important: Change this to the path of your changelog file
+
+jobs:
+  post-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository's code so we can access the changelog file
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Read the changelog file content into an output variable
+      - name: Read changelog file
+        id: read_changelog
+        run: echo "content=$(cat CHANGELOG.md)" >> $GITHUB_OUTPUT
+
+      # Step 3: Send the changelog content to the Discord webhook
+      - name: Send changelog to Discord
+        uses: tsg-bot/discord-webhook-action@v1.1.2
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: | # Using '|' allows for multi-line messages
+            🚀 **New Changelog Update for DevRight Studios!** 🚀
+            
+            ${{ steps.read_changelog.outputs.content }}
