@@ -22,12 +22,12 @@ jobs:
         id: read_changelog
         run: echo "content=$(cat CHANGELOG.md)" >> $GITHUB_OUTPUT
 
-      # Step 3: Send the changelog content to the Discord webhook
+      # Step 3: Send the changelog content to the Discord webhook using a new action
       - name: Send changelog to Discord
-        uses: tsg-bot/discord-webhook-action@v1.1.2
+        uses: navigaid/discord-notification-action@v1 # This is the updated action
         with:
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          content: | # Using '|' allows for multi-line messages
+          message: | # Using 'message' instead of 'content' for this action
             🚀 **New Changelog Update for DevRight Studios!** 🚀
             
             ${{ steps.read_changelog.outputs.content }}
